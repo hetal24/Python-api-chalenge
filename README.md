@@ -7,19 +7,31 @@
 - Install the citipy library using the command: pip install citipy.
 
 1 Create Plots to Showcase the Relationship Between Weather Variables and Latitude:
+   
     -Latitude vs. Temperature
+    
     -Latitude vs. Humidity
+    
     -Latitude vs. Cloudiness
+    
     -Latitude vs. Wind Speed
 
 2  Compute Linear Regression for Each Relationship:
+    
     -Northern Hemisphere: Temperature vs. Latitude
+    
     -Southern Hemisphere: Temperature vs. Latitude
+    
     -Northern Hemisphere: Humidity vs. Latitude
+    
     -Southern Hemisphere: Humidity vs. Latitude
+    
     -Northern Hemisphere: Cloudiness vs. Latitude
+    
     -Southern Hemisphere: Cloudiness vs. Latitude
+    
     -Northern Hemisphere: Wind Speed vs. Latitude
+    
     -Southern Hemisphere: Wind Speed vs. Latitude
 
 
@@ -34,8 +46,11 @@
 1 Create a map that displays a point for every city in the city_data_df DataFrame.
 
 2 Narrow down the city_data_df DataFrame to find your ideal weather condition.
+    
     -A max temperature lower than 27 degrees but higher than 21
+    
     -Wind speed less than 4.5 m/s
+    
     -Zero cloudiness
 
 3 Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
